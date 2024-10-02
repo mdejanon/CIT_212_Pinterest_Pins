@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.pinswrapper {
+    position: fixed;
+    width: 100%;
+    top: 25px;
+}
+
+.pin {
+    position: absolute;
+    border: 2px solid #917F67;
+    border-radius: 5%;
+    width: 275px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #678190;
+}
+
+
+.headerbox {
+    position: absolute;
+    padding-top: 2px;
+    top: 10px;
+    left: 2.5px;
+    width: 270px;
+    height: 28px;
+    border-radius: 10px;
+    background-color: #57B1E6;
+    z-index: 99;
+}
+
+.description {
+    position: absolute;
+    bottom: 5px;
+    left: 42.5px;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #57B1E6;
+    z-index: 99;
+}
